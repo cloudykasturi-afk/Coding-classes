@@ -1,0 +1,9 @@
+https://drive.google.com/drive/folders/1rLTUaYAwZffRmG949pgRSDyy1zg-pnG7?usp=sharing
+
+number = int(input("enter the number:"))
+for i in range(2,number):
+    if number%i==0:
+        print("not prime")
+        break
+else:
+        print("prime")
