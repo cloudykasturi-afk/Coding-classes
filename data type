@@ -1,0 +1,20 @@
+a = "kasturi"
+b = 24.6
+c = 55
+d = True
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+age = 19
+weight = 38.5
+print("before type casting")
+print(type(age))
+print(type(weight))
+print("after type casting")
+age = float(age)
+weight = int(weight)
+print(type(age))
+print(type(weight))
+name = input("Enter your name:")
+print(name)
