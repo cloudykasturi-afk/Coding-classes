@@ -1,0 +1,12 @@
+print("Hello Kasturi")
+food = "waffles"
+print(food)
+luckynumber = 23
+print(luckynumber)
+score = 1
+print(score)
+score = score + 1
+print(score)
+year = 2000
+year = year - 1
+print(year)
