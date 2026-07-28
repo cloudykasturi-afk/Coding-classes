@@ -1,0 +1,8 @@
+a=5
+b=13
+print(b//a)
+print(b%a)
+p=int(input("enter the number:"))
+q=int(input("enter the number:"))
+print(p%q)
+print(p//q)
