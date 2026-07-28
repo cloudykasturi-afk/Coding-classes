@@ -1,0 +1,9 @@
+rare=input("enter a string:")
+print(rare[::-2])
+print(rare[1:3])
+common="homecoming"
+print(rare+" "+common)
+a="python programming"
+print(a[6:18])
+a="happy"
+print(a*3)
