@@ -1,0 +1,13 @@
+marks=int(input("Enter your marks:"))
+if marks>=33:
+    print("Pass")
+    if marks>=75:
+        print("Grade A")
+    elif marks>=55 and marks <75:
+        print("Grade B")
+    elif marks >=45 and marks <55:
+        print("Grade C")
+    else:
+        print("Rubbish")
+else:
+    print("Fail")
