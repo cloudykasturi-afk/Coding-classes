@@ -1,0 +1,9 @@
+pizza=input("Do you want pizza?:").upper()
+if pizza=="YES":
+    cheese=input("Do u want extra cheese?:").upper()
+    if cheese=="YES":
+        print("Your cheesy pizza is on the way")
+    else:
+        print("Your diet pizza is on the way")
+else:
+    print("No pizza ordered")
