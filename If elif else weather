@@ -1,0 +1,7 @@
+temperature=int(input("Please enter the temperature:"))
+if temperature>=20:
+    print("Summer")
+elif temperature >=10 and temperature <20:
+    print("Winter season is starting")
+else:
+    print("Snowfall is coming")
