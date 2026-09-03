@@ -1,0 +1,7 @@
+user_input = int(input("Enter a value:"))
+i=1
+while i<=10:
+  print("Table of", user_input)
+  print(user_input*i)
+  print("value of i",i)
+  i+=2
