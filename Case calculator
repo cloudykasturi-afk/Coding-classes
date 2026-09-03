@@ -1,0 +1,26 @@
+def addition(a,b):
+  return a + b
+print(addition(12,13))
+
+def subtraction(c,d):
+  return c - d
+print(subtraction(89,75))
+
+def multiplication(a,b):
+  return a*b
+print(multiplication(5,4))
+
+def division(e,f):
+  return e/f
+print(division(12,6))
+
+choice = input("Input your choice:")
+match choice:
+  case "add":
+    print("result:", addition(12,13))
+  case "subtract":
+    print("result:", subtraction(34,26))
+  case "multiplication":
+    print("result:", multiplication(6,9))
+  case "division":
+    print("result:", division (81,9))
